@@ -1,0 +1,376 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+} 
+.header .left-side p a{
+ text-decoration: none;
+ color: black;
+}
+.header .left-side{
+    margin: 10px 20px;
+}
+.header .right-side .icons i{
+    text-decoration: none;
+    color: black;
+   
+}
+.header .right-side .icons i:hover{
+    font-size: 20px;
+    transition: all 0.3s ease;
+
+}
+.header .right-side{
+    float: right;
+}
+.header .right-side .icons li{
+    list-style: none;
+    display: inline;
+    margin-left: 15px;
+    padding: 15px;
+}
+.header .right-side .icons .muraciet{
+    background-color: yellow;
+    padding: 10px 40px;
+    font-weight: bold;
+    list-style: none;
+    font-size: 20px;
+}
+.header .right-side .icons .muraciet a{
+ text-decoration: none;
+}
+.navigation{
+    margin-top: 25px;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-attachment: fixed;
+}  
+.img img{
+    width: 100%;
+    margin-top: 10px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+}
+
+.navigation li{
+    display: inline;
+    list-style: none;
+    margin-left: 150px;
+    font-size: 20px;
+    color:black;
+}
+
+.container{
+    width: 1024px;
+    margin: 0px auto; 
+}
+#education-proqram{
+    
+    margin-top: 100px;
+}
+#education-proqram .container .col-3 a{
+    text-decoration: none;
+    color: rgb(22, 5, 61);
+}
+#education-proqram .container .col-6 a{
+    text-decoration:none;
+    color: black;
+}
+
+#education-proqram .container .col-6 h2{
+    font-size: 40px;
+    margin-top: 10px;
+    padding-left: 10px
+}
+#education-proqram .container .col-6 span{
+    font-weight: 100;
+}
+#education-proqram .container .col-6 p{
+    display: block;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+#education-proqram .container .col-6 a{
+    display: block;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+#education-proqram .container .col-3 i{
+    font-size: 50px;
+    margin: 10px 20px ;
+}
+#education-proqram .container .col-3 h2{
+ margin-top: 55px
+}
+#education-proqram .container .col-3:hover{
+    background-color:rgb(250, 223, 71);
+    font-size: 20px;
+    transition: all 0.3s ease; 
+}
+#background-img{
+    margin-top: 750px;
+    background-image: url(./image/02.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    position: relative;
+    height: 600px;
+    background-attachment: fixed;
+}
+.mezun{
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    font-size: 20px;
+    background-color: aliceblue;
+}
+.mezun .mezun-2{
+    position: absolute;
+    top: 80%;
+    left: 20%;
+    font-size: 20px;
+    background-color: aliceblue;
+    border:solid black 1px;
+    height: 50px;
+}
+#whycode .container .title{
+ font-size: 25px;
+  position: relative;
+  top: 50%;
+}
+.title span{
+ display: block;
+ font-weight: 200;
+}
+
+#why-code{
+    margin-top: 50px;
+}
+#why-code {
+    padding: 150px 0;
+  }
+  
+  #why-code .title {
+    width: 50%;
+    position: relative;
+  }
+  
+  #why-code .title h1 {
+    font-size: 50px;
+  }
+  
+  #why-code .title h1 span {
+    display: block;
+    font-weight: 300;
+    color: gray;
+  }
+  
+  #why-code .title::after {
+    content: "";
+    background:linear-gradient(to right,blue,red,green,yellow) ;
+    width: 100px;
+    height: 3px;
+    margin: 20px 0px;
+    position: absolute;
+    top: 53%;
+    left: 0;
+  }
+  
+  #why-code .title .description {
+    margin-top: 80px;
+  }
+  
+  #why-code .why-code-items {
+    margin-top: 50px;
+    padding: 20px;
+    transition: all 0.3s;
+  }
+  
+  #why-code .why-code-items .content {
+    margin-top: 10%;
+    color: black;
+  }
+  #why-code .why-code-items .content p {
+      text-overflow: ellipsis;
+    margin-top: 10px;
+    height: 60px;
+    overflow: hidden;
+  }
+  
+  #why-code .why-code-items:hover {
+    background-color:white;
+  }
+  #why-code .why-code-items img{
+        width: 150px;
+        height: 150px;
+        overflow: hidden;
+  }
+  #partners .title{
+      margin-top: 250px;
+      margin-left: 200px;
+      position: relative;
+  }
+  #partners .container .title h1{
+      margin-left: 80px;
+      font-size: 60px;
+  }
+  #partners .container .title h1 span{
+      margin-left: 60px;
+  }
+  #partners .container .title p{
+    text-align: center;
+    width: 500px;
+    height: 40px;
+    margin-top: 30px;
+    margin-left: 40px;
+  }
+  #partners .title::after{
+    content: "";
+    background:linear-gradient(to right,blue,red,green,yellow) ;
+    width: 300px;
+    height: 3px;
+    margin: 20px 0px;
+    position: absolute;
+    top: 120%;
+    left: 15%;
+}
+#partners .container .row .col-4{
+    margin-top:450px;
+}
+
+#future .container .title-future{
+    margin-top: 150px;
+}
+#future .container .title-future h2{
+ text-align: center;
+ font-size: 60px;
+}
+#future .container .title-future p{
+    text-align: center;
+    width: 500px;
+    height: 40px;
+    margin-top: 30px;
+    margin-left: 250px;
+}
+ 
+
+#future .container .title-future .instagram{
+    text-align: center;
+    margin-top: 50px ;
+    font-size: 23px;
+    position: relative;
+}
+#future .container .title-future .instagram a{
+    text-decoration:none;
+    color: rgb(0, 0, 0);
+}
+#future .container .title-future .instagram ::after{
+    content: "";
+    width: 250px;
+    position: absolute;
+    height: 5px;
+    background: #ffe700;
+    display: block;
+    margin-left: 380px;
+}
+
+#have-you-question{
+    background-image: url(https://code.edu.az/media/settings/Sualiniz-var_c3Xp8Bz.jpg);
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    margin-top: 1850px;
+    height: 500px;
+}
+#have-you-question .all-side{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#have-you-question .left-side{
+ margin: 30px 50px;
+}
+#have-you-question .left-side h3{
+   font-size: 50px;
+   font-weight: lighter;
+   margin-left: -50px;
+}
+#have-you-question .left-side h2{
+  font-size: 50px;
+  margin-top: -70px;
+}
+#have-you-question .left-side p{
+  font-size: 20px;
+}
+#have-you-question .right-side{
+  text-align: center;
+  margin-right: 25%;
+}
+#have-you-question .right-side #id_phone{
+padding: 10px 93px;
+margin-top: 10px;
+}
+#have-you-question .right-side #id_program{
+  padding: 10px 93px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+#have-you-question .right-side .name-surname input{
+  padding: 10px 2px;
+}
+#have-you-question .right-side a{
+  padding: 10px 145px;
+  background-color: yellow;
+  border: 2px solid yellow;
+  border-radius: 5px;
+}
+#services .all li{
+  list-style: none;
+  margin-bottom: 10px;
+}
+#services .all{
+  display: flex;
+  justify-content: space-around;
+}
+#services .all li a{
+  color: gray;
+}
+#contact{
+   background-color: darkgray;
+  padding: 15px 0;
+}
+#contact p{
+  text-align: center;
+}
+#footer-menu{
+  padding: 40px 0;
+}
+#footer-menu .all{
+  display: flex;
+  justify-content: space-around;
+}
+#footer-menu .all .box li{
+  margin-right: 20px;
+  list-style: none;
+  float: left;
+}
+#footer-menu .all .box li:hover{
+  font-size: 20px;
+  margin-bottom: 15px;
+  transition: all 0.3s ease; 
+}
+
